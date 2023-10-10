@@ -24,32 +24,3 @@ a:hover {
   color: var(--primary);
 }
 
-
-
-.main{
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.loader{
-  height: 40px;
-  width: 40px;
-  background-color: #ddddee;
-  border-radius: 50%;
-  border-top: 10px solid #817c7c;
-  animation: load 2s linear 1ms infinite;
-}
-
-@keyframes load {
-  from{
-    transform: rotate(0deg);
-    /* scale: 0.1; */
-  }
-  to{
-    transform: rotate(360deg);
-    /* scale: 1; */
-  }
-}
