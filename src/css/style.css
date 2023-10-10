@@ -17,9 +17,14 @@ a {
   color: var(--light);
 }
 
+
+
+
 a:hover {
   color: var(--primary);
 }
+
+
 
 .main{
   height: 100vh;
